@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cce7d0;
+    margin: 0;
+}
+.flor {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.petalo {
+    width: 60px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: center bottom;
+}
+.centro {
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Posicionamiento de los pétalos en círculo */
+.petalo:nth-child(1) { transform: translate(-50%, -100%) rotate(0deg); }
+.petalo:nth-child(2) { transform: translate(-50%, -100%) rotate(30deg); }
+.petalo:nth-child(3) { transform: translate(-50%, -100%) rotate(60deg); }
+.petalo:nth-child(4) { transform: translate(-50%, -100%) rotate(90deg); }
+.petalo:nth-child(5) { transform: translate(-50%, -100%) rotate(120deg); }
+.petalo:nth-child(6) { transform: translate(-50%, -100%) rotate(150deg); }
+.petalo:nth-child(7) { transform: translate(-50%, -100%) rotate(180deg); }
+.petalo:nth-child(8) { transform: translate(-50%, -100%) rotate(210deg); }
+.petalo:nth-child(9) { transform: translate(-50%, -100%) rotate(240deg); }
+.petalo:nth-child(10) { transform: translate(-50%, -100%) rotate(270deg); }
+.petalo:nth-child(11) { transform: translate(-50%, -100%) rotate(300deg); }
+.petalo:nth-child(12) { transform: translate(-50%, -100%) rotate(330deg); }
