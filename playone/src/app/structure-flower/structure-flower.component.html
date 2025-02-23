@@ -2,6 +2,8 @@
 
 <div class="flor">
     <!-- Pétalos -->
+    <div *ngFor="let item of items; let i = index" (click)="eliminarElemento(i)" class="petalo"> {{ item }}</div>
+    <!-- <div class="petalo"></div>
     <div class="petalo"></div>
     <div class="petalo"></div>
     <div class="petalo"></div>
@@ -11,9 +13,7 @@
     <div class="petalo"></div>
     <div class="petalo"></div>
     <div class="petalo"></div>
-    <div class="petalo"></div>
-    <div class="petalo"></div>
-    <div class="petalo"></div>
+    <div class="petalo"></div> -->
     
     <!-- Centro de la flor -->
     <div class="centro"></div>

@@ -1,11 +1,17 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-structure-flower',
-  imports: [],
   templateUrl: './structure-flower.component.html',
-  styleUrl: './structure-flower.component.css'
+  styleUrls: ['./structure-flower.component.css'],
+  standalone: true,
+  imports: [CommonModule]
 })
 export class StructureFlowerComponent {
+  items = ['🌷', '🌹', '🌻', '🌼', '🌸', '💐','🌷', '🌹', '🌻', '🌼', '🌸', '💐'];
+  eliminarElemento(index: number) {
+    this.items.splice(index, 1);
+  }
 
 }
