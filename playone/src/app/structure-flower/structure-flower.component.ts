@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class StructureFlowerComponent {
-  items = ['🌷', '🌹', '🌻', '🌼', '🌸', '💐','🌷', '🌹', '🌻', '🌼', '🌸', '💐'];
+  items = ['', '', '', '', '', '','', '', '', '', '', ''];
   eliminarElemento(index: number) {
     this.items.splice(index, 1);
   }
